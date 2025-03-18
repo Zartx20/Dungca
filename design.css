@@ -3,12 +3,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0f7fa;
+    background-color: #0c545e;
     font-family: Arial, sans-serif;
 }
 
 .calculator {
-    background: #fff;
+    background: #3177a6;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -22,7 +22,7 @@ body {
     font-size: 1.5em;
     margin-bottom: 10px;
     border: none;
-    background: #e0f2f1;
+    background: #8debe4;
     padding: 5px;
     border-radius: 5px;
 }
@@ -40,16 +40,17 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background: #b2dfdb;
+    background: #3d9c94;
     transition: 0.2s;
 }
 
 button.operator {
-    background: #ffcc80;
+    background: #095a34;
 }
 
 button.equals {
-    background: #ff7043;
+    background: #0d2f77;
+    grid-column: 4;
 }
 
 button:hover {

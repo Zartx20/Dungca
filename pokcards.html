@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Modals</title>
+    <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+
+    <button onclick="showPopModal('pop-modal1')">Open Box 1</button>
+    <button onclick="showPopModal('pop-modal2')">Open Box 2</button>
+    <button onclick="showPopModal('pop-modal3')">Open Box 3</button>
+    <button onclick="showPopModal('pop-modal4')">Open Box 4</button>
+
+    <!-- Modal 1 -->
+    <div id="pop-modal1" class="pop-modal">
+        <div class="pop-modal-content">
+            <span class="pop-close" onclick="closePopModal('pop-modal1')">&times;</span>
+            <div class="pop-image-banner">
+                <img src="https://preview.redd.it/l50qtuqbxzs51.png?width=256&format=png&auto=webp&s=afb6d1542af1ea1760458093b0ad5b27e6641bb7" alt="Gift Box" class="pop-box1img">
+                <div class="pop-banner-text">Limited-Time Only</div>
+            </div>
+            <div class="pop-modal-title">GO Rocket Box</div>
+            <div class="pop-item-list">
+                <div class="pop-item">
+                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_ultra_ball.png&w=96&q=75" alt="" class="pop-iconimg"> 
+                    <span class="pop-item-count">5x</span> <span class="pop-item-details">Ultra Ball</span> 
+                </div>
+                <div class="pop-item">
+                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&w=96&q=75" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">4x</span><span class="pop-item-details">Postcard Pages</span> 
+                </div>
+                <div class="pop-item">
+                    <img src="https://pokemongohub.net/wp-content/uploads/2017/06/normal-raid-pass.png" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">5x</span><span class="pop-item-details">Remote Raid Pass</span>
+                </div>
+                <div class="pop-item">
+                    <img src="https://pokemongohub.net/wp-content/uploads/2018/03/Item_0202.png" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">5x</span><span class="pop-item-details">Max Revive</span>
+                </div>
+            </div>
+            <button class="pop-price-btn">₱289.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
+        </div>
+    </div>
+
+    <!-- Modal 2 (Duplicate of Modal 1) -->
+    <div id="pop-modal2" class="pop-modal">
+        <div class="pop-modal-content">
+            <span class="pop-close" onclick="closePopModal('pop-modal2')">&times;</span>
+            <div class="pop-image-banner">
+                <img src="https://preview.redd.it/l50qtuqbxzs51.png?width=256&format=png&auto=webp&s=afb6d1542af1ea1760458093b0ad5b27e6641bb7" alt="Gift Box" class="pop-box1img">
+                <div class="pop-banner-text">Limited-Time Only</div>
+            </div>
+            <div class="pop-modal-title">GO Rocket Box</div>
+            <div class="pop-item-list">
+                <div class="pop-item">
+                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_ultra_ball.png&w=96&q=75" alt="" class="pop-iconimg"> 
+                    <span class="pop-item-count">5x</span> <span class="pop-item-details">Ultra Ball</span> 
+                </div>
+                <div class="pop-item">
+                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&w=96&q=75" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">4x</span><span class="pop-item-details">Postcard Pages</span> 
+                </div>
+                <div class="pop-item">
+                    <img src="https://pokemongohub.net/wp-content/uploads/2017/06/normal-raid-pass.png" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">5x</span><span class="pop-item-details">Remote Raid Pass</span>
+                </div>
+                <div class="pop-item">
+                    <img src="https://pokemongohub.net/wp-content/uploads/2018/03/Item_0202.png" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">5x</span><span class="pop-item-details">Max Revive</span>
+                </div>
+            </div>
+            <button class="pop-price-btn">₱289.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
+        </div>
+    </div>
+
+    <!-- Modal 3 (Duplicate of Modal 1) -->
+    <div id="pop-modal3" class="pop-modal">
+        <div class="pop-modal-content">
+            <span class="pop-close" onclick="closePopModal('pop-modal3')">&times;</span>
+            <div class="pop-image-banner">
+                <img src="https://preview.redd.it/l50qtuqbxzs51.png?width=256&format=png&auto=webp&s=afb6d1542af1ea1760458093b0ad5b27e6641bb7" alt="Gift Box" class="pop-box1img">
+                <div class="pop-banner-text">Limited-Time Only</div>
+            </div>
+            <div class="pop-modal-title">GO Rocket Box</div>
+            <div class="pop-item-list">
+                <div class="pop-item">
+                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_ultra_ball.png&w=96&q=75" alt="" class="pop-iconimg"> 
+                    <span class="pop-item-count">5x</span> <span class="pop-item-details">Ultra Ball</span> 
+                </div>
+                <div class="pop-item">
+                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&w=96&q=75" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">4x</span><span class="pop-item-details">Postcard Pages</span> 
+                </div>
+                <div class="pop-item">
+                    <img src="https://pokemongohub.net/wp-content/uploads/2017/06/normal-raid-pass.png" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">5x</span><span class="pop-item-details">Remote Raid Pass</span>
+                </div>
+                <div class="pop-item">
+                    <img src="https://pokemongohub.net/wp-content/uploads/2018/03/Item_0202.png" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">5x</span><span class="pop-item-details">Max Revive</span>
+                </div>
+            </div>
+            <button class="pop-price-btn">₱289.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
+        </div>
+    </div>
+
+    <!-- Modal 4 (Duplicate of Modal 1) -->
+    <div id="pop-modal4" class="pop-modal">
+        <div class="pop-modal-content">
+            <span class="pop-close" onclick="closePopModal('pop-modal4')">&times;</span>
+            <div class="pop-image-banner">
+                <img src="https://preview.redd.it/l50qtuqbxzs51.png?width=256&format=png&auto=webp&s=afb6d1542af1ea1760458093b0ad5b27e6641bb7" alt="Gift Box" class="pop-box1img">
+                <div class="pop-banner-text">Limited-Time Only</div>
+            </div>
+            <div class="pop-modal-title">GO Rocket Box</div>
+            <div class="pop-item-list">
+                <div class="pop-item">
+                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_ultra_ball.png&w=96&q=75" alt="" class="pop-iconimg"> 
+                    <span class="pop-item-count">5x</span> <span class="pop-item-details">Ultra Ball</span> 
+                </div>
+                <div class="pop-item">
+                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&w=96&q=75" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">4x</span><span class="pop-item-details">Postcard Pages</span> 
+                </div>
+                <div class="pop-item">
+                    <img src="https://pokemongohub.net/wp-content/uploads/2017/06/normal-raid-pass.png" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">5x</span><span class="pop-item-details">Remote Raid Pass</span>
+                </div>
+                <div class="pop-item">
+                    <img src="https://pokemongohub.net/wp-content/uploads/2018/03/Item_0202.png" alt="" class="pop-iconimg">
+                    <span class="pop-item-count">5x</span><span class="pop-item-details">Max Revive</span>
+                </div>
+            </div>
+            <button class="pop-price-btn">₱289.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
+        </div>
+    </div>
+
+    <script src="cards.js"></script>
+</body>
+</html>

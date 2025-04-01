@@ -9,19 +9,20 @@ body {
     height: 100vh;
 }
 
-.cards-container {
-    display: flex;
+.bun-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
 }
 
-.card-wrapper {
+.bun-card-wrapper {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card-banner {
+.bun-card-banner {
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 700;
     background: linear-gradient(to right, #00AEEF, #ec5dec);
@@ -34,7 +35,7 @@ body {
     z-index: 2;
 }
 
-.card {
+.bun-card {
     width: 250px;
     background: white;
     border-radius: 10px;
@@ -45,38 +46,49 @@ body {
     position: relative;
 }
 
-.image-section {
+.bun-image-section {
     position: relative;
-    background: url('https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149751078.jpg') center/cover;
+    background: url('https://img.freepik.com/free-vector/flat-comic-style-background-copy-space_52683-54924.jpg?t=st=1743476895~exp=1743480495~hmac=c14dc5c3af5b1c1a8eed3df8c16155cdb579ab8d56e16f705bf36b0f33656fa9&w=1380') center/cover;
     padding: 20px;
     border-radius: 10px;
 }
 
-.main-image {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
+.bun-main-image {
+    width: 120px;
+    height: 120px; 
+    object-fit: contain; 
 }
 
-.small-items {
+.bun-small-items .item img {
+    width: 50px;
+    height: 50px; 
+    object-fit: contain; 
+}
+
+.bun-small-items {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     gap: 5px;
 }
 
-.item {
+.bun-item {
+    width: 50px; 
+    height: 50px; 
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
 }
 
-.item img {
-    width: 40px;
-    border-radius: 50%;
+.bun-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
 }
 
-.item-count {
+
+.bun-item-count {
     position: absolute;
     bottom: -5px;
     right: -5px;
@@ -87,20 +99,20 @@ body {
     font-weight: bold;
 }
 
-.card-title {
+.bun-card-title {
     color: #00AEEF;
     margin: 10px 0 5px;
     font-size: 18px;
 }
 
-.card-subtitle {
+.bun-card-subtitle {
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: rgba(122, 120, 120, 0.459);
 }
 
-.price-btn {
+.bun-price-btn {
     background: linear-gradient(to right, #00AEEF, #ec5dec);
     color: white;
     border: none;
@@ -113,28 +125,7 @@ body {
     margin-top: 10px;
 }
 
-.timer {
-    font-family: "Pixelify Sans", sans-serif;
-    position: absolute;
-    bottom: -15px;
-    left: 10px;
-    background: linear-gradient(to right, #00AEEF, #FF69B4);
-    padding: 5px;
-    color: white;
-    border-radius: 5px;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    z-index: 2;
-}
-
-.timer img {
-    width: 15px;
-    margin-right: 5px;
-}
-
-
-.pop-modal {
+.bun-modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -146,7 +137,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.pop-modal-content {
+.bun-modal-content {
     background-color: white;
     margin: 10% auto;
     padding: 20px;
@@ -159,7 +150,7 @@ body {
     overflow: hidden;
 }
 
-.pop-close {
+.bun-close {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -174,20 +165,23 @@ body {
     font-weight: bold;
 }
 
-.pop-close:hover {
+.bun-close:hover {
     background: linear-gradient(to right, #008dcf, #c13eb9);
 }
 
-.pop-image-banner {
+.bun-image-banner {
     position: relative;
-    background: url("https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149751078.jpg?semt=ais_hybrid") center/cover;
+    background: url("https://img.freepik.com/free-vector/flat-comic-style-background-copy-space_52683-54924.jpg?t=st=1743476895~exp=1743480495~hmac=c14dc5c3af5b1c1a8eed3df8c16155cdb579ab8d56e16f705bf36b0f33656fa9&w=1380") center/cover;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
 }
 
-.pop-banner-text {
+.bun-banner-text {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -200,19 +194,20 @@ body {
     font-family: "Pixelify Sans", sans-serif;
 }
 
-.pop-box1img {
-    width: 100%;
-    border-radius: 10px;
+.bun-box1img {
+    width: 120px; 
+    height: 120px; 
+    object-fit: contain; 
 }
 
-.pop-modal-title {
+.bun-modal-title {
     font-weight: bold;
     font-size: 1.5em;
     color: #00AEEF;
     margin-top: 10px;
 }
 
-.pop-item-list {
+.bun-item-list {
     margin: 10px 0;
     text-align: left;
     display: flex;
@@ -220,22 +215,21 @@ body {
     gap: 5px;
 }
 
-.pop-item {
+.bun-items {
     display: flex;
     align-items: center;
-    background: #f0f0f0;
     padding: 8px;
     border-radius: 8px;
 }
 
-.pop-iconimg {
+.bun-iconimg {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     margin-right: 15px; 
 }
 
-.pop-item-details {
+.bun-item-details {
     font-family: "Pixelify Sans", sans-serif;
     display: flex;
     align-items: center;
@@ -243,7 +237,7 @@ body {
     flex-grow: 1;
 }
 
-.pop-item-count {
+.bun-item-counts {
     background: linear-gradient(to right, #00AEEF, #ec5dec);
     color: white;
     font-size: 12px;
@@ -252,7 +246,7 @@ body {
     border-radius: 50%;
 }
 
-.pop-bottom-section {
+.bun-bottom-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,13 +254,13 @@ body {
     flex-wrap: wrap;
 }
 
-.pop-price-container {
+.bun-price-container {
     display: flex;
     align-items: center;
     gap: 20px; 
 }
 
-.pop-price-btn {
+.bun-price-btn {
     background: linear-gradient(to right, #00AEEF, #ec5dec);
     color: white;
     border: none;
@@ -280,14 +274,14 @@ body {
     text-align: center;
 }
 
-.pop-price-btn:hover {
+.bun-price-btn:hover {
     background: linear-gradient(to right, #008dcf, #c13eb9);
 }
 
-.pop-purchase-info {
-    font-family: "Pixelify Sans", sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    color: #45424280;
-    white-space: nowrap;
+.popularItem {
+    margin-top: 40px;
+}
+
+.bun-card-wrapper {
+    margin-top: 10px; 
 }

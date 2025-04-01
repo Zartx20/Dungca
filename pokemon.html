@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Store</title>
+    <title>PokeVerse</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -21,9 +21,9 @@
             <span class="text-white h3 ml-2">Web Store</span>
         </div>
         <nav class="nav">
-            <a class="nav-link" href="#">Code Redemption</a>
-            <a class="nav-link" href="#">Event Ticketing</a>
-            <a class="btn btn-signup" href="#">Sign Up</a>
+            <a class="nav-link" href="#" onclick="alert('Please log in first'); window.location.href='signup.html'">Code Redemption</a>
+            <a class="nav-link" href="#" onclick="alert('Please log in first'); window.location.href='signup.html'">Event Ticketing</a>
+            <a class="nav-link btn btn-primary btn-signup" href="signup.html">Sign Up</a>
         </nav>
     </header>
 
@@ -41,13 +41,13 @@
                 <div class="carousel-inner">
                     <!-- Item 1 -->
                     <div class="carousel-item active" data-popup-image="images/tixb.webp">
-                        <img src="images/banner1.png" class="d-block w-100" alt="Pokemon GO Fest 2025">
+                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2FPGO2025_Global_withoutlogo_withoutlegallines_W1334%2520x%2520H600px.png&w=3840&q=75" class="d-block w-100" alt="Pokemon GO Fest 2025">
 
                         <div class="badge">ONE TIME ONLY</div>
                         <div class="title">
                             <h1>Pokemon GO Fest 2025: Global Ticket</h1>
                         </div>
-                        <button class="cta-btn">GET TICKET</button>
+                        <button class="cta-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">GET TICKET</button>
                     </div>
 
                     <!-- Item 2 -->
@@ -57,17 +57,17 @@
                         <div class="title">
                             <h1>Special PokéCoin Bundle</h1>
                         </div>
-                        <button class="cta-btn">BUY NOW</button>
+                        <button class="cta-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">BUY NOW</button>
                     </div>
 
                     <!-- Item 3 -->
                     <div class="carousel-item" data-popup-image="images/exclusive-item.avif">
-                        <img src="images/itembox.png" class="d-block w-100" alt="Item Boxes">
+                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_dynamax_launch_event_key_art.jpg&w=3840&q=75" class="d-block w-100" alt="Item Boxes">
                         <div class="badge">EXCLUSIVE</div>
                         <div class="title">
                             <h1>Exclusive Item Boxes</h1>
                         </div>
-                        <button class="cta-btn">VIEW ITEMS</button>
+                        <button class="cta-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">VIEW ITEMS</button>
                     </div>
 
                     <!-- Item 4 -->
@@ -75,15 +75,15 @@
                         <img src="images/bundle.png" class="d-block w-100" alt="Daily Bundles">
                         <div class="badge">DAILY DEAL</div>
                         <!-- Countdown Timer -->
-                        <div class="countdown-timer">
+                        <div class="countdown-timer1">
                             <span>Offer ends in</span>
-                            <div class="timer" id="eventCountdown">23:59:59</div>
+                            <div class="timer1" id="eventCountdown">23:59:59</div>
                         </div>
 
                         <div class="title">
                             <h1>Daily Bundles</h1>
                         </div>
-                        <button class="cta-btn">VIEW ITEMS</button>
+                        <button class="cta-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">VIEW ITEMS</button>
                     </div>
                 </div>
 
@@ -114,11 +114,10 @@
         <!--FEATURED SECTION-->
         <section id="featured" class="product-section featured">
             <div class="container">
-                <h2 class="text-center mb-5">Featured Items</h2>
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="featured-product-card" data-popup-image="images/tixb.webp">
-                            <div class="featured-badge">Featured</div>
+                            <div class="featured-badge">FEATURED</div>
                             <div class="row no-gutters align-items-center">
                                 <div class="col-md-8">
                                     <div class="product-details">
@@ -126,7 +125,7 @@
                                         <p class="product-note">Can only be purchased 1 time.</p>
                                         <span class="original-price">P450.00</span>
                                         <span class="discounted-price">P373.15</span>
-                                        <button class="btn btn-primary purchase-btn">Purchase</button>
+                                        <button class="btn btn-primary purchase-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">Purchase</button>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -153,7 +152,7 @@
                                 <img src="https://preview.redd.it/l50qtuqbxzs51.png?width=256&format=png&auto=webp&s=afb6d1542af1ea1760458093b0ad5b27e6641bb7" alt="Main Item" class="main-image">
                                 <div class="small-items">
                                     <div class="item"><img src="https://lh3.googleusercontent.com/ShO4yHIzlVLBWbF_VnNyHJndi3ZNezeh2BV2dVZRbPR7UZxHomeOV25xYB7D5HTfaZCduw_L_f5-VGC48ZxGeEtH4loKgFu1WBpjZADTXZTl=s0" alt="Item 1"><span class="item-count">1</span></div>
-                                    <div class="item"><img src="Rocket_Radar.webp" alt="Item 2"><span class="item-count">5</span></div>
+                                    <div class="item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_leader_map.png&w=96&q=75" alt="Item 2"><span class="item-count">5</span></div>
                                     <div class="item"><img src="https://assets.dittobase.com/go/items/remote-raid-pass.png" alt="Item 3"><span class="item-count">1</span></div>
                                 </div>
                             </div>
@@ -184,7 +183,7 @@
                         <div class="card-banner">Limited-Time Only</div>
                         <div class="card">
                             <div class="image-section">
-                                <img src="Adventure_Box.webp" alt="Main Item" class="main-image">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general4.small.1.png&w=384&q=75" alt="Main Item" class="main-image">
                                 <div class="small-items">
                                     <div class="item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_golden_pinap_berry.png&w=96&q=75" alt="Item 1"><span class="item-count">8</span></div>
                                     <div class="item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_boost.png&w=384&q=75" alt="Item 2"><span class="item-count">8</span></div>
@@ -200,7 +199,7 @@
                         <div class="card-banner">Limited-Time Only</div>
                         <div class="card">
                             <div class="image-section">
-                                <img src="Generic_Box_3b.webp" alt="Main Item" class="main-image">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general1.rocket.1.png&w=384&q=75" alt="Main Item" class="main-image">
                                 <div class="small-items">
                                     <div class="item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_incubator_basic.png&w=384&q=75" alt="Item 1"><span class="item-count">2</span></div>
                                     <div class="item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_incubator_super.png&w=384&q=75" alt="Item 2"><span class="item-count">2</span></div>
@@ -228,7 +227,7 @@
                                 <span class="pop-item-count">1x</span> <span class="pop-item-details">Event Ticket</span> 
                             </div>
                             <div class="pop-item">
-                                <img src="Rocket_Radar.webp" alt="Rocket Radar" class="pop-iconimg">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_leader_map.png&w=96&q=75" alt="Rocket Radar" class="pop-iconimg">
                                 <span class="pop-item-count">5x</span><span class="pop-item-details">Rocket Radar</span> 
                             </div>
                             <div class="pop-item">
@@ -236,13 +235,13 @@
                                 <span class="pop-item-count">1x</span><span class="pop-item-details">Remote Raid Pass</span>
                             </div>
                         </div>
-                        <button class="pop-price-btn">₱59.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
+                        <button class="pop-price-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">₱59.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
                     </div>
                 </div>
                  <!-- Modal2 -->
                  <div id="pop-modal2" class="pop-modal">
                     <div class="pop-modal-content">
-                        <span class="pop-close" onclick="closePopModal('pop-modal1')">&times;</span>
+                        <span class="pop-close" onclick="closePopModal('pop-modal2')">&times;</span>
                         <div class="pop-image-banner">
                             <img src="https://storage.googleapis.com/platform-webstore-stg-assets/pgo/sku_assets/bundle.general.remotebox.small.1.png" alt="Gift Box" class="pop-box1img">
                             <div class="pop-banner-text">Limited-Time Only</div>
@@ -266,15 +265,15 @@
                                 <span class="pop-item-count">5x</span><span class="pop-item-details">Max Revive</span>
                             </div>
                         </div>
-                        <button class="pop-price-btn">₱289.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
+                        <button class="pop-price-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">₱289.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
                     </div>
-                </div> 
+                </div>
                  <!-- Modal3 -->
                  <div id="pop-modal3" class="pop-modal">
                     <div class="pop-modal-content">
-                        <span class="pop-close" onclick="closePopModal('pop-modal1')">&times;</span>
+                        <span class="pop-close" onclick="closePopModal('pop-modal3')">&times;</span>
                         <div class="pop-image-banner">
-                            <img src="Adventure_Box.webp" alt="Gift Box" class="pop-box1img">
+                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general4.small.1.png&w=384&q=75" alt="Gift Box" class="pop-box1img">
                             <div class="pop-banner-text">Limited-Time Only</div>
                         </div>
                         <div class="pop-modal-title">Ultra Raid Box</div>
@@ -292,15 +291,15 @@
                                 <span class="pop-item-count">4x</span><span class="pop-item-details">Remote Raid Pass</span>
                             </div>
                         </div>
-                        <button class="pop-price-btn">₱149.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
+                        <button class="pop-price-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">₱149.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
                     </div>
                 </div>
                  <!-- Modal4 -->
                  <div id="pop-modal4" class="pop-modal">
                     <div class="pop-modal-content">
-                        <span class="pop-close" onclick="closePopModal('pop-modal1')">&times;</span>
+                        <span class="pop-close" onclick="closePopModal('pop-modal4')">&times;</span>
                         <div class="pop-image-banner">
-                            <img src="Generic_Box_3b.webp" alt="Gift Box" class="pop-box1img">
+                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general1.rocket.1.png&w=384&q=75" alt="Gift Box" class="pop-box1img">
                             <div class="pop-banner-text">Limited-Time Only</div>
                         </div>
                         <div class="pop-modal-title">Might and Mastery Bos</div>
@@ -318,19 +317,271 @@
                                 <span class="pop-item-count">4x</span><span class="pop-item-details">Remote Raid Pass</span>
                             </div>
                         </div>
-                        <button class="pop-price-btn">₱289.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
+                        <button class="pop-price-btn" onclick="alert('Please log in first'); window.location.href='signup.html'">₱289.00</button> <span class="pop-purchase-info">CAN ONLY BE PURCHASED 1 TIME</span>
                     </div>
                 </div>
             </div>
+            <section class="popularItem">
+                <div class="bun-cards-container">
+                    <div class="bun-card-wrapper" onclick="openbunModal('bun-modal1')">
+                        <div class="bun-card-banner">Popular</div>
+                        <div class="bun-card">
+                            <div class="bun-image-section">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_incubator_basic.png&w=384&q=75" alt="Main Item" class="bun-main-image">
+                                <div class="bun-small-items">
+                                    <div class="bun-item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_incubator_basic.png&w=384&q=75" alt="Item 1"><span class="bun-item-count">3</span></div>
+                                </div>
+                            </div>
+                            <h2 class="bun-card-title">Egg Incubator</h2>
+                            <button class="bun-price-btn">₱44.00</button>
+                        </div>
+                    </div>
+                    <div class="bun-card-wrapper" onclick="openbunModal('bun-modal2')">
+                        <div class="bun-card-banner">Popular</div>
+                        <div class="bun-card">
+                            <div class="bun-image-section">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2FIncubator_Super.png&w=384&q=75" alt="Main Item" class="bun-main-image">
+                                <div class="bun-small-items">
+                                    <div class="bun-item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2FIncubator_Super.png&w=384&q=75" alt="Item 1"><span class="bun-item-count">3</span></div>
+                                </div>
+                            </div>
+                            <h2 class="bun-card-title">Super Incubator</h2>
+                            <button class="bun-price-btn">₱132.00</button>
+                        </div>
+                    </div>
+                    <div class="bun-card-wrapper" onclick="openbunModal('bun-modal3')">
+                        <div class="bun-card-banner">Popular</div>
+                        <div class="bun-card">
+                            <div class="bun-image-section">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_mp_replenish.png&w=384&q=75" alt="Main Item" class="bun-main-image">
+                                <div class="bun-small-items">
+                                    <div class="bun-item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_mp_replenish.png&w=384&q=75" alt="Item 1"><span class="bun-item-count">6x</span></div>
+                                </div>
+                            </div>
+                            <h2 class="bun-card-title">Max Particle pack</h2>
+                            <button class="bun-price-btn">₱235.00</button>
+                        </div>
+                    </div>
+                    <div class="bun-card-wrapper" onclick="openbunModal('bun-modal4')">
+                        <div class="bun-card-banner">Popular</div>
+                        <div class="bun-card">
+                            <div class="bun-image-section">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_revive.png&w=384&q=75" alt="Main Item" class="bun-main-image">
+                                <div class="bun-small-items">
+                                    <div class="bun-item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_revive.png&w=384&q=75" alt="Item 1"><span class="bun-item-count">6</span></div>
+                                </div>
+                            </div>
+                            <h2 class="bun-card-title">Max Revive</h2>
+                            <button class="bun-price-btn">₱59.00</button>
+                        </div>
+                    </div>
+                    <div class="bun-card-wrapper" onclick="openbunModal('bun-modal5')">
+                        <div class="bun-card-banner">Popular</div>
+                        <div class="bun-card">
+                            <div class="bun-image-section">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_boost.png&w=384&q=75" alt="Main Item" class="bun-main-image">
+                                <div class="bun-small-items">
+                                    <div class="bun-item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_boost.png&w=384&q=75" alt="Item 1"><span class="bun-item-count">3</span></div>
+                                </div>
+                            </div>
+                            <h2 class="bun-card-title">Max Mushroom</h2>
+                            <button class="bun-price-btn">₱289.00</button>
+                        </div>
+                    </div>
+                    <div class="bun-card-wrapper" onclick="openbunModal('bun-modal6')">
+                        <div class="bun-card-banner">Popular</div>
+                        <div class="bun-card">
+                            <div class="bun-image-section">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&w=384&q=75" alt="Main Item" class="bun-main-image">
+                                <div class="bun-small-items">
+                                    <div class="bun-item"><img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&w=384&q=75" alt="Item 1"><span class="bun-item-count">3</span></div>
+                                </div>
+                            </div>
+                            <h2 class="bun-card-title">Premium Battle Pass</h2>
+                            <button class="bun-price-btn">₱88.00</button>
+                        </div>
+                    </div>
+            
+                <!-- Modal1 -->
+                <div id="bun-modal1" class="bun-modal">
+                    <div class="bun-modal-content">
+                        <span class="bun-close" onclick="closebunModal('bun-modal1')">&times;</span>
+                        <div class="bun-image-banner">
+                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_incubator_basic.png&w=384&q=75" alt="Gift Box" class="bun-box1img">
+                            <div class="bun-banner-text">Popular Item</div>
+                        </div>
+                        <div class="bun-modal-title">Egg Incubator</div>
+                        <div class="bun-item-list">
+                            <div class="bun-items">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_incubator_basic.png&w=384&q=75" alt="" class="bun-iconimg"> 
+                                <span class="bun-item-counts">2x</span> <span class="bun-item-details">Egg Incubator</span> 
+                            </div>
+                        </div>
+                        <button class="bun-price-btn">₱44.00</button>
+                    </div>
+                </div>
+                 <!-- Modal2 -->
+                 <div id="bun-modal2" class="bun-modal">
+                    <div class="bun-modal-content">
+                        <span class="bun-close" onclick="closebunModal('bun-modal2')">&times;</span>
+                        <div class="bun-image-banner">
+                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2FIncubator_Super.png&w=384&q=75" alt="Gift Box" class="bun-box1img">
+                            <div class="bun-banner-text">Popular Item</div>
+                        </div>
+                        <div class="bun-modal-title">Super Incubator</div>
+                        <div class="bun-item-list">
+                            <div class="bun-items">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2FIncubator_Super.png&w=384&q=75" alt="" class="bun-iconimg"> 
+                                <span class="bun-item-counts">3x</span> <span class="bun-item-details">Super Incubator</span> 
+                            </div>
+                        </div>
+                        <button class="bun-price-btn">₱132.00</button>
+                    </div>
+                </div>
+                 <!-- Modal3 -->
+                 <div id="bun-modal3" class="bun-modal">
+                    <div class="bun-modal-content">
+                        <span class="bun-close" onclick="closebunModal('bun-modal3')">&times;</span>
+                        <div class="bun-image-banner">
+                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_mp_replenish.png&w=384&q=75" alt="Gift Box" class="bun-box1img">
+                            <div class="bun-banner-text">Popular Item</div>
+                        </div>
+                        <div class="bun-modal-title">Max Particle Pack</div>
+                        <div class="bun-item-list">
+                            <div class="bun-items">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_mp_replenish.png&w=384&q=75" alt="" class="bun-iconimg"> 
+                                <span class="bun-item-counts">6x</span> <span class="bun-item-details">Max Particle Pack</span> 
+                            </div>
+                        </div>
+                        <button class="bun-price-btn">₱235.00</button>
+                    </div>
+                </div>
+                 <!-- Modal4 -->
+                 <div id="bun-modal4" class="bun-modal">
+                    <div class="bun-modal-content">
+                        <span class="bun-close" onclick="closebunModal('bun-modal4')">&times;</span>
+                        <div class="bun-image-banner">
+                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_revive.png&w=384&q=75" alt="Gift Box" class="bun-box1img">
+                            <div class="bun-banner-texts">Popular Item</div>
+                        </div>
+                        <div class="bun-modal-title">Max Revive</div>
+                        <div class="bun-item-list">
+                            <div class="bun-items">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_revive.png&w=384&q=75" alt="" class="bun-iconimg"> 
+                                <span class="bun-item-counts">6x</span> <span class="bun-item-details">Max Revive</span> 
+                            </div>
+                        </div>
+                        <button class="bun-price-btn">₱59.00</button>
+                    </div>
+                </div>
+                <!-- Modal5 -->
+                <div id="bun-modal5" class="bun-modal">
+                    <div class="bun-modal-content">
+                        <span class="bun-close" onclick="closebunModal('bun-modal5')">&times;</span>
+                        <div class="bun-image-banner">
+                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_boost.png&w=384&q=75" alt="Gift Box" class="bun-box1img">
+                            <div class="bun-banner-text">Popular Item</div>
+                        </div>
+                        <div class="bun-modal-title">Max Mushroom</div>
+                        <div class="bun-item-list">
+                            <div class="bun-items">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_boost.png&w=384&q=75" alt="" class="bun-iconimg"> 
+                                <span class="bun-item-counts">3x</span> <span class="bun-item-details">Max Mushroom</span> 
+                            </div>
+                        </div>
+                        <button class="bun-price-btn">₱289.00</button>
+                    </div>
+                </div>
+                <!-- Modal6 -->
+                <div id="bun-modal6" class="bun-modal">
+                    <div class="bun-modal-content">
+                        <span class="bun-close" onclick="closebunModal('bun-modal6')">&times;</span>
+                        <div class="bun-image-banner">
+                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&w=384&q=75" alt="Gift Box" class="bun-box1img">
+                            <div class="bun-banner-text">Popular Item</div>
+                        </div>
+                        <div class="bun-modal-title">Premium Battle Pass</div>
+                        <div class="bun-item-list">
+                            <div class="bun-items">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&w=384&q=75" alt="" class="bun-iconimg"> 
+                                <span class="bun-item-counts">3x</span> <span class="bun-item-details">Premium Battle Pass</span> 
+                            </div>
+                        </div>
+                        <button class="bun-price-btn">₱88.00</button>
+                    </div>
+                </div>
+            </section>
         </section>
+        
 
 
 
-            <!--POKECOIN SECTION-->
+        <!--POKECOIN SECTION-->
         <section id="pokecoins" class="product-section">
-            <div class="container">
                 <h2 class="text-center mb-5">PokéCoins</h2>
-                <!-- Your pokecoins content here -->
+                <section class="pokecoin-carousel-container">
+                    <button class="pokecoin-carousel-btn left">❮</button>
+                    <div class="pokecoin-carousel-wrapper">
+                        <div class="pokecoin-carousel">
+                            <div class="pokecoin-carousel-item">
+                                <img src="images/110coins.png" alt="110 PokéCoins">
+                                <p class="pokecoin-title">110 PokéCoins</p>
+                                <p class="pokecoin-price">₱29.00</p>
+                                <div class="pokecoin-bonus-info">100 + 10 Web Store Bonus = <br><strong>110 total PokéCoins</strong></div>
+                            </div>
+                            <div class="pokecoin-carousel-item">
+                                <img src="images/600coins.png" alt="600 PokéCoins">
+                                <p class="pokecoin-title">600 PokéCoins</p>
+                                <p class="pokecoin-price">₱149.00</p>
+                                <div class="pokecoin-bonus-info">550 + 50 Web Store Bonus = <br><strong>600 total PokéCoins</strong></div>
+                            </div>
+                            <div class="pokecoin-carousel-item">
+                                <img src="images/1300coins.png" alt="1,300 PokéCoins">
+                                <p class="pokecoin-title">1,300 PokéCoins</p>
+                                <p class="pokecoin-price">₱289.00</p>
+                                <div class="pokecoin-bonus-info">1,200 + 100 Web Store Bonus = <br><strong>1,300 total PokéCoins</strong></div>
+                            </div>
+                            <div class="pokecoin-carousel-item">
+                                <img src="images/2700coins.png" alt="2,700 PokéCoins">
+                                <p class="pokecoin-title">2,700 PokéCoins</p>
+                                <p class="pokecoin-price">₱589.00</p>
+                                <div class="pokecoin-bonus-info">2,500 + 200 Web Store Bonus = <br><strong>2,700 total PokéCoins</strong></div>
+                            </div>
+                            <div class="pokecoin-carousel-item">
+                                <img src="images/5600coins.png" alt="5,600 PokéCoins">
+                                <p class="pokecoin-title">5,600 PokéCoins</p>
+                                <p class="pokecoin-price">₱1,170.00</p>
+                                <div class="pokecoin-bonus-info">5,200 + 400 Web Store Bonus = <br><strong>5,600 total PokéCoins</strong></div>
+                            </div>
+                            <div class="pokecoin-carousel-item">
+                                <img src="images/15500coins.png" alt="15,500 PokéCoins">
+                                <p class="pokecoin-title">15,500 PokéCoins</p>
+                                <p class="pokecoin-price">₱2,950.00</p>
+                                <div class="pokecoin-bonus-info">14,500 + 1,000 Web Store Bonus = <br><strong>15,500 total PokéCoins</strong></div>
+                            </div>
+                            <div class="pokecoin-carousel-item">
+                                <img src="ExtraC.jpg" alt="18,800 PokéCoins">
+                                <p class="pokecoin-title">18,800 PokéCoins</p>
+                                <p class="pokecoin-price">₱3,270.00</p>
+                                <div class="pokecoin-bonus-info">15,000 + 3,300 Web Store Bonus = <br><strong>18,800 total PokéCoins</strong></div>
+                            </div>
+                            <div class="pokecoin-carousel-item">
+                                <img src="CoinExtra1.png" alt="20,000 PokéCoins">
+                                <p class="pokecoin-title">20,000 PokéCoins</p>
+                                <p class="pokecoin-price">₱3,500.00</p>
+                                <div class="pokecoin-bonus-info">16,000 + 4,000 Web Store Bonus = <br><strong>20,000 total PokéCoins</strong></div>
+                            </div>
+                        </div
+                    </div>
+                    <button class="pokecoin-carousel-btn right">❯</button>
+                </section>
+
+                <!-- Add PokéCoins Modal -->
+                <div class="pokecoin-modal">
+                    <div class="pokecoin-modal-content">
+                        <!-- Modal content will be dynamically inserted here -->
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -341,8 +592,264 @@
             <div class="container">
                 <h2 class="text-center mb-5">Daily Bundles</h2>
                 <!-- Your daily bundles content here -->
-            </div>
-        </section>
+                  <!-- Bundle 1 -->
+                  <section class="bundle">
+                    <!-- Bundle 1 -->
+                    <div class="promo-container" id="PopenModal1">
+                        <div class="promo-bundle">
+                            <h2 class="promo-title">Daily PokeHatch Bounty</h2>
+                            <h3 class="promo-title">Super Hatch Box</h3>
+                            <p class="promo-limited-time">LIMITED-TIME ONLY</p>
+                            <p class="promo-price">PLN 89.00 <span>PLN 72.25</span></p>
+                        </div>
+                        <div class="promo-items">
+                            <div class="promo-mini-items">
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">5</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&w=384&q=75"
+                                        alt="Mini Item 1">
+                                </div>
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">3</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_incubator_super.png&w=96&q=75"
+                                        alt="Mini Item 2">
+                                </div>
+                            </div>
+                            <div class="promo-main-item">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-stg-assets%2Fpgo%2Fsku_assets%2Fbundle.general.adventure.1.png&w=384&q=75"
+                                    alt="Main Item">
+                            </div>
+                            <div class="promo-mini-items">
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">5</span>
+                                    <img src="https://www.pngkey.com/png/full/30-307419_image-egg-standard-k-pokemon-egg-clipart.png"
+                                        alt="Mini Item 3">
+                                </div>
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">66x</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fvirtual-currency.png&w=96&q=75"
+                                        alt="Mini Item 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Bundle 2 -->
+                    <div class="promo-container" id="PopenModal2">
+                        <div class="promo-bundle">
+                            <h2 class="promo-title">Daily PokéCoin Bounty</h2>
+                            <h3 class="promo-title">Gold Rush Box</h3>
+                            <p class="promo-limited-time">LIMITED-TIME ONLY</p>
+                            <p class="promo-price">PLN 79.50<span>PLN 99.99</span></p>
+                        </div>
+                        <div class="promo-items">
+                            <div class="promo-mini-items">
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">5</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&w=96&q=75"
+                                        alt="Mini Item 1">
+                                </div>
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">3</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fcoin-bundle-small_v2.png&w=384&q=75"
+                                        alt="Mini Item 2">
+                                </div>
+                            </div>
+                            <div class="promo-main-item">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general1.rocket.1.png&w=384&q=75"
+                                    alt="Main Item">
+                            </div>
+                            <div class="promo-mini-items">
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">66x</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fcoin-bundle-xxsmall.png&w=384&q=75"
+                                        alt="Mini Item 3">
+                                </div>
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">15x</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fcoin-bundle-xsmall.png&w=384&q=75"
+                                        alt="Mini Item 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Bundle 3 -->
+                    <div class="promo-container" id="PopenModal3">
+                        <div class="promo-bundle">
+                            <h2 class="promo-title">Daily PokéBattle Bounty</h2>
+                            <h3 class="promo-title">Mega Raid Box</h3>
+                            <p class="promo-limited-time">LIMITED-TIME ONLY</p>
+                            <p class="promo-price">PLN 99.99 <span>PLN 159.99</span></p>
+                        </div>
+                        <div class="promo-items">
+                            <div class="promo-mini-items">
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">15</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_remote_raid_ticket.png&w=96&q=75"
+                                        alt="Mini Item 1">
+                                </div>
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">10</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_revive.png&w=384&q=75"
+                                        alt="Mini Item 2">
+                                </div>
+                            </div>
+                            <div class="promo-main-item">
+                                <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-stg-assets%2Fpgo%2Fsku_assets%2Fbundle.general.remotebox.small.1.png&w=384&q=75"
+                                    alt="Main Item">
+                            </div>
+                            <div class="promo-mini-items">
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">8x</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_mp_replenish.png&w=384&q=75"
+                                        alt="Mini Item 3">
+                                </div>
+                                <div class="promo-mini-item">
+                                    <span class="promo-quantity">88x</span>
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fvirtual-currency.png&w=96&q=75"
+                                        alt="Mini Item 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--- Modal for Bundle 1 --> 
+                    <div id="Promodal1" class="pmodal">
+                        <div class="pmodal-content">
+                
+                            <div class="promo-bundle">
+                                <p class="promo-limited-time">LIMITED-TIME ONLY</p>
+                                <div class="promo-mini-items">
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">5</span>
+                                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&w=384&q=75"
+                                            alt="Mini Item 1">
+                                        <p>Premuim Battle pas</p>
+                                    </div>
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">3</span>
+                                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_incubator_super.png&w=96&q=75"
+                                            alt="Mini Item 2">
+                                    </div>
+                                </div>
+                                <div class="promo-mini-items">
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">5</span>
+                                        <img src="https://www.pngkey.com/png/full/30-307419_image-egg-standard-k-pokemon-egg-clipart.png"
+                                            alt="Mini Item 3">
+                                    </div>
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">66x</span>
+                                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fvirtual-currency.png&w=96&q=75"
+                                            alt="Mini Item 4">
+                                    </div>
+                                </div>
+                                <p class="promo-price">PLN 89.00 <span>PLN 72.25</span></p>
+                            </div>
+                            <div class="promo-items">
+                
+                                <div class="promo_mobox">
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-stg-assets%2Fpgo%2Fsku_assets%2Fbundle.general.adventure.1.png&w=384&q=75"
+                                        alt="Main Item">
+                                </div>
+                                <h2 class="promo_moLabel">Daily PokeHatch Bounty</h2>
+                                <h3 class="promo_moLabel">Super Hatch Box</h3>
+                            </div>
+                            <span class="pclose">&times;</span>
+                        </div>
+                    </div>
+                
+                <!--- Modal for Bundle 2 -->
+                    <div id="Promodal2" class="pmodal">
+                        <div class="pmodal-content">
+                
+                            <div class="promo-bundle">
+                                <p class="promo-limited-time">LIMITED-TIME ONLY</p>
+                                <div class="promo-mini-items">
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">5</span>
+                                        < <span class="promo-quantity">5</span>
+                                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&w=96&q=75"
+                                                alt="Mini Item 1">
+                                    </div>
+                                    <div class="promo-mini-item">
+                                        <<span class="promo-quantity">3</span>
+                                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fcoin-bundle-small_v2.png&w=384&q=75"
+                                                alt="Mini Item 2">
+                                    </div>
+                                </div>
+                                <div class="promo-mini-items">
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">66x</span>
+                                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fcoin-bundle-xxsmall.png&w=384&q=75"
+                                            alt="Mini Item 3">
+                                    </div>
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">88x</span>
+                                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fvirtual-currency.png&w=96&q=75"
+                                            alt="Mini Item 4">
+                                    </div>
+                                </div>
+                                <p class="promo-price">PLN 79.50<span>PLN 99.99</span></p>
+                            </div>
+                            <div class="promo-items">
+                
+                                <div class="promo_mobox">
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general1.rocket.1.png&w=384&q=75"
+                                        alt="Main Item">
+                                </div>
+                                <h2 class="promo_moLabel">Daily PokéCoin Bounty</h2>
+                                <h3 class="promo_moLabel">Gold Rush Box</h3>
+                            </div>
+                            <span class="pclose">&times;</span>
+                        </div>
+                    </div>
+                
+                <!--- Modal for Bundle 3 -->
+                    <div id="Promodal3" class="pmodal">
+                        <div class="pmodal-content">
+                
+                            <div class="promo-bundle">
+                                <p class="promo-limited-time">LIMITED-TIME ONLY</p>
+                                <div class="promo-mini-items">
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">15</span>
+                                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_remote_raid_ticket.png&w=96&q=75"
+                                            alt="Mini Item 1">
+                                    </div>
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">10</span>
+                                            <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_max_revive.png&w=384&q=75"
+                                                alt="Mini Item 2">
+                                    </div>
+                                </div>
+                                <div class="promo-mini-items">
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">8x</span>
+                                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_mp_replenish.png&w=384&q=75"
+                                            alt="Mini Item 3">
+                                    </div>
+                                    <div class="promo-mini-item">
+                                        <span class="promo-quantity">88x</span>
+                                        <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fvirtual-currency.png&w=96&q=75"
+                                            alt="Mini Item 4">
+                                    </div>
+                                </div>
+                                <p class="promo-price">PLN 99.99 <span>PLN 159.99</span></p>
+                            </div>
+                            <div class="promo-items">
+                
+                                <div class="promo_mobox">
+                                    <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general1.rocket.1.png&w=384&q=75"
+                                        alt="Main Item">
+                                </div>
+                                <h2 class="promo_moLabel">Daily PokéBattle Bounty</h2>
+                                <h3 class="promo_moLabel">Mega Raid Box</h3>
+                            </div>
+                            <span class="pclose">&times;</span>
+                        </div>
+                    </div>
+                </section>
 
 
     </main>
@@ -364,11 +871,46 @@
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logos">
+                <a href="https://nianticlabs.com/" target="_blank">
+                    <img src="Logos/niantic-logo.png" alt="Niantic Logo" class="niantic-logo">
+                </a>
+                <a href="https://www.pokemon.com/" target="_blank">
+                    <img src="Logos/pokemoncompany.avif" alt="The Pokemon Company Logo" class="pokemon-logo">
+                </a>
+                <a href="homepage.html" target="_blank">
+                    <img src="Logos/group-logo.png" alt="Fourtnite Logo" class="group-logo">
+                </a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.youtube.com/@pokemongo" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/PokemonGO/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/pokemongoapp/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@pokemongo" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="https://nianticlabs.com/terms" target="_blank">Terms of Service</a>
+                <a href="https://nianticlabs.com/privacy" target="_blank">Privacy Policy</a>
+                <a href="https://nianticlabs.com/copyright" target="_blank">Copyright Policy</a>
+                <a href="https://nianticlabs.com/guidelines" target="_blank">Player Guidelines</a>
+            </div>
+            <div class="footer-disclaimer">
+                <p>Disclaimer:</p>
+                <p>All images used on this website are the property of Niantic, Inc. This project is for educational purposes only, and no copyright infringement is intended.</p>
+            </div>
+            <div class="footer-copyright">
+                <p>©2023 Niantic, Inc. ©2023 Pokémon. ©1995-2023 Nintendo / Creatures Inc. / GAME FREAK Inc. Pokémon and Pokémon character names are trademarks of Nintendo. Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC. During gameplay, please be aware of your surroundings and play safely.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="homepage.js"></script>
 
-    </div>
 </body>
 
 </html>

@@ -1,38 +1,44 @@
-// Function to open modal 
-function openPopModal(modalId) {
+// popular Item
+function openbunModal(modalId) {
     const modal = document.getElementById(modalId);
     if (modal) {
         modal.style.display = "block";
         document.body.style.overflow = "hidden";
 
-        document.querySelectorAll(".card-banner, .timer").forEach(el => {
+        // Hide banners & timers
+        document.querySelectorAll(".bun-card-banner, .timer, .card-banner").forEach(el => {
             el.style.display = "none";
         });
     }
 }
 
 function closeAllModals() {
-    document.querySelectorAll(".pop-modal").forEach(modal => {
+    document.querySelectorAll(".bun-modal").forEach(modal => {
         modal.style.display = "none";
     });
     document.body.style.overflow = "auto";
 
-
-    document.querySelectorAll(".card-banner, .timer").forEach(el => {
+    document.querySelectorAll(".bun-card-banner").forEach(el => {
         el.style.display = "block";
     });
 }
 
-
-function closePopModal(modalId) {
+function closebunModal(modalId) {
     const modal = document.getElementById(modalId);
     if (modal) {
-        closeAllModals();
+        modal.style.display = "none";
+        document.body.style.overflow = "auto";
+
+        // Restore banners & timers
+        document.querySelectorAll(".bun-card-banner, .timer, .card-banner").forEach(el => {
+            el.style.display = "block";
+        });
     }
 }
 
+
 window.onclick = function (event) {
-    document.querySelectorAll(".pop-modal").forEach(modal => {
+    document.querySelectorAll(".bun-modal").forEach(modal => {
         if (event.target === modal) {
             closeAllModals();
         }
